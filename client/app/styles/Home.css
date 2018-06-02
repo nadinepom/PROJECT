@@ -1,0 +1,312 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: rgba(255,255,255,0.5);
+    width: 100% !important;
+    height: 100% !important;
+}
+h1 {
+    font-weight: 400;
+}
+h2 {
+    line-height: 20px;
+    margin: 0;
+    color: #25BAD0;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+h3, h4 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+}
+h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+}
+p {
+    color: white;
+    font-size: 15px;
+}
+p.intro {
+    font-size: 16px;
+    margin: 12px 0 0;
+    line-height: 24px;
+}
+a {
+    color: #25BAD0;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color: #053740;
+}
+ul, ol {
+    list-style: none;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+ul, ol {
+    padding: 0;
+    webkit-padding: 0;
+    moz-padding: 0;
+}
+
+/* Home Section */
+.intro {
+    padding: 100px 0;
+    display: table;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    background: url(/assets/img/Reportage_3.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .brand {
+    color: white;
+    color-interpolation: 10px;
+    font-weight: 700;
+    font-size: 90px;
+    bottom: 50px;
+    right: 200px;
+    background-color: #000000;
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    padding: 20px;
+}
+
+header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/* Services Section */
+#services {
+    padding: 10px 0;
+    background: white;
+}
+
+#services h4 {
+    color: black;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight:bold;
+}
+
+#services i.fa {
+    font-size: 32px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    color: #053740;
+    width: 100px;
+    height: 100px;
+    padding: 33px 0;
+    border: 1px solid #25BAD0;
+    background: #25BAD0;
+    border-radius: 50%;
+}
+
+.p1 {
+  color: black;
+  font-size: 15px;
+}
+
+.p2 {
+  color: black;
+  font-size: 13px;
+  margin: 0px 5px 0px 5px;
+}
+.p2-bold {
+  color: black;
+  font-size: 13px;
+  margin: 0px 5px 0px 5px;
+  font-weight: bold;
+  float: left;
+}
+
+button{
+    padding: 1.5em 1.5em;
+
+}
+
+.liked{
+    background: url(/assets/img/flame2.png) no-repeat center center;
+    background-size: 70px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    color: red;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.share{
+    background: url(/assets/img/share.png) no-repeat center center;
+    background-size: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.liked:hover {
+    background-color: gray;
+}
+
+.share:hover {
+    background-color: gray;
+}
+
+.img-circle.team-img {
+  width: 100px;
+  height: 100px;
+}
+
+.photo_female{
+  background: url(/assets/img/team/user_weiblich.png) no-repeat center center;
+  background-size: 60px;
+  background-color: white;
+  border: none;
+  color: red;
+  cursor: pointer;
+  margin: -12px;
+}
+
+
+/* Portfolio Section */
+
+#portfolio {
+  padding: 100px 0;
+  margin: -20px 0 0 0;
+  color: rgba(255, 255, 255, 0.9);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#20a6bb+0,25bad0+50 */
+  background: white;
+}
+
+#portfolio p3{
+    font-size: 13px;
+    color: white;
+}
+
+#portfolio a{
+    font-size: 13px;
+    color:#E85F37;
+}
+
+#portfolio h1 {
+    font-size: 30px;
+    color: #0a4b55;
+    font-weight: bold;
+}
+
+.article-text{
+  padding: 10px 0;
+  background: white;
+}
+
+.content {
+  padding-top: 75px
+}
+
+
+.photo1 {
+  padding: 100px 0;
+  display: table;
+  width: 100%;
+  height: 900px;
+  background: url(/assets/img/design.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.photo2 {
+  padding: 100px 0;
+  display: table;
+  width: 100%;
+  height: 900px;
+  background: url(/assets/img/IMG_5395.JPG) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.img-circle.team-img2 {
+  width: 100px;
+  height: 100px;
+}
+button2{
+  padding: 2em;
+}
+.photo_female2{
+  background: url(/assets/img/team/user_weiblich.png) no-repeat center center;
+  background-size: 40px;
+  background-color: white;
+  border: none;
+  color: red;
+  cursor: pointer;
+  margin: -16px;
+}
+
+.abstand{
+  margin-top: 20px;
+}
+
+
+/* Footer Section*/
+#footer {
+    background: #03252b;
+    padding: 25px 0 20px 0;
+}
+#footer p {
+    font-size: 13px;
+}
+#footer a {
+    color: white;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .intro H1 {
+        font-size: 30px;
+    }
+    header .intro-text {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .photo1 .photo2{
+      width: 100%;
+      height: 900px;
+    }
+}
