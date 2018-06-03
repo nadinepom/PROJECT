@@ -11,7 +11,8 @@ class Home extends Component {
             <div>
                 <Navbar/>
               <header id="header" >
-                <div className="intro img-fluid">
+                <div className="embed-responsive embed-responsive-16by9">
+                <div className="intro embed-responsive-item">
                     <div className="container">
                       <div className="row">
                         <div className="intro-text">
@@ -19,6 +20,7 @@ class Home extends Component {
                            </div>
                       </div>
                     </div>
+                </div>
                 </div>
               </header>
 
@@ -67,7 +69,9 @@ class Home extends Component {
                 <div className="container">
                   <div className="row">
                       <hr/>
-                      <div className="photo1 img-fluid"/>
+                    <div className="embed-responsive embed-responsive-16by9">
+                    <div className="photo1 embed-responsive-item"/>
+                    </div>
                     <div className="article-text">
                       <div className="container">
                         <div className="row">
@@ -129,7 +133,9 @@ class Home extends Component {
                     <br/>
 
                     <hr/>
+                    <div className="embed-responsive embed-responsive-16by9">
                     <div className="photo2 embed-responsive-item"/>
+                    </div>
                     <div className="article-text">
                       <div className="container">
                         <div className="row">
