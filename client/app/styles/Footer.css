@@ -1,0 +1,11 @@
+/* Footer Section*/
+#footer {
+  background: #343434;
+  padding: 15px 0 5px 0;
+}
+#footer p {
+  font-size: 13px;
+}
+#footer a {
+  color: white;
+}

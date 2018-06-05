@@ -4,35 +4,33 @@ import '../../styles/Navbar.css';
 
 
 class Navbar extends Component {
-    render() {
-        return (
-            <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-                <div className="container">
-                    <a className="navbar-brand js-scroll-trigger" href="#header">FACES</a>
-                    <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        Menu
-                        <i className="fa fa-bars"></i>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarResponsive">
-                        <ul className="navbar-nav text-uppercase ml-auto">
-                            <li className="nav-item">
-                                <a className="nav-link js-scroll-trigger" href="#services">Unser Projekt</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link js-scroll-trigger" href="#about">Über uns</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link js-scroll-trigger" href="#portfolio">Storyboard</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link js-scroll-trigger" href="#footer">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        );
-    }
+  render() {
+    return (
+      <nav className="navbar navbar-inverse navbar-fixed-top">
+        <div className="container-fluid">
+          <div className="navbar-header">
+            <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+            </button>
+            <a className="navbar-brand Logofont" href="#">FACES</a>
+          </div>
+          <div className="collapse navbar-collapse" id="myNavbar">
+            <ul className="nav navbar-nav">
+              <li><a href="#services">About us</a></li>
+              <li><a href="#portfolio">Storyboard</a></li>
+            </ul>
+            <ul className="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    );
+  }
 }
 
 export default Navbar;

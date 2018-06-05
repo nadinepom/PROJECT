@@ -283,19 +283,6 @@ button2{
   margin-top: 20px;
 }
 
-
-/* Footer Section*/
-#footer {
-    background: #03252b;
-    padding: 25px 0 20px 0;
-}
-#footer p {
-    font-size: 13px;
-}
-#footer a {
-    color: white;
-}
-
 /* Media Queries */
 @media (max-width: 1024px) {
     .intro H1 {
